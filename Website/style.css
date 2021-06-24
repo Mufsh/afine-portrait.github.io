@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+.body {
+    display: flex;
+}
+
+.login {
+    position: relative;
+    height: 100vh;
+    width: 40vw;
+    background: url(/Background2.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logo {
+    height: 4vw;
+}
+
+.neon {
+    position: absolute;
+    top: 7vh;
+    font-size: 60px;
+    color: white;
+    padding: 0 20px;
+    text-shadow: 0 0 20px #ff005b;
+}
+
+.neon::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 20px;
+    z-index: -1;
+    color: #ff005b;
+    filter: blur(15px);
+}
+
+.neon::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fe3a80;
+    z-index: 0;
+    opacity: .5;
+    filter: blur(30px);
+}
+
+.form {
+    border: 1px solid rgb(252, 99, 99);
+    padding: 27px;
+    color: white;
+    /* font-size: 20px; */
+}
+
+.response-box {
+    width: 23vw;
+    height: 5vh;
+    border: 0.5px solid white;
+    border-radius: 3px;
+    background: transparent;
+    color: white;
+    /* font-size: 20px; */
+}
+
+.btn {
+    width: 23vw;
+    height: 4vh;
+    background-color: rgb(6, 95, 179);
+    border: rgb(6, 95, 179);
+    border-radius: 3px;
+    color: white;
+    /* font-size: 20px; */
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(10, 130, 243);
+}
+
+.forgot {
+    color: rgb(6, 95, 179);
+    font-size: 15px;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+
+.new_acc {
+    color: white;
+    background-color: rgb(2, 23, 48);
+    width: 23vw;
+    height: 4vh;
+    text-align: center;
+    padding-top: 2px;
+    cursor: pointer;
+}
+
+.new_acc:hover {
+    background-color: rgb(3, 34, 73);
+    border-radius: 3px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 6vh;
+    width: 40vw;
+    color: white;
+}
+
+.links {
+    font-style: none;
+    color: white;
+}
+
+.home {
+    height: 100vh;
+    width: 60vw;
+    background: url(/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.hl {
+    height: 8px;
+    width: 28vw;
+    background-image: linear-gradient(to right, red, white, red);
+    border: 1px solid red;
+    border-radius: 3px;
+}
+
+.main {
+    color: white;
+    font-size: 60px;
+    width: 30vw;
+    height: 10vh;
+    padding: 300px 0px 0px 335px;
+}
+
+.content {
+    color: white;
+    font-size: 60px;
+    width: 30vw;
+    height: 30vh;
+}
+
+.vl {
+    width: 8px;
+    height: 20vw;
+    background-image: linear-gradient( red, white, red);
+    position: relative;
+    left: 300px;
+    bottom: 9vh;
+    border: 1px solid red;
+    border-radius: 3px;
+}
+
+.Enter {
+    color: white;
+    font-size: 30px;
+    width: 20vw;
+    height: 8vh;
+    background-image: linear-gradient(to right, rgb(228, 95, 6), rgb(250, 65, 250), rgb(228, 95, 6));
+    border: 1px solid rgb(228, 95, 6);
+    border-radius: 3px;
+    cursor: pointer;
+    transition: width 1s, height 1s;
+}
+
+.Enter:hover {
+    width: 23vw;
+    height: 10vh;
+    font-weight: 300;
+}
+
+.fb {
+    width: 40px;
+}

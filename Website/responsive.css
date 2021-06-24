@@ -1,0 +1,52 @@
+@media only screen and (max-width:1290px) {
+    * {
+        font-size: 10px;
+    }
+    .body {
+        flex-direction: column;
+    }
+    .home {
+        float: left;
+        width: 100vw;
+        height: 100vh;
+    }
+    .login {
+        float: right;
+        width: 100vw;
+        height: 100vh;
+        justify-content: space-around;
+    }
+    .neon {
+        font-size: 40px;
+    }
+    .forgot {
+        font-size: 8px;
+    }
+    .response-box {
+        height: 4vh;
+    }
+    .content {
+        font-size: 30px;
+    }
+    .main {
+        padding: 100px 0 0 100px;
+        position: relative;
+        top: 200px;
+        left: 100px;
+    }
+    .Enter {
+        font-size: 15px;
+        position: relative;
+        top: -60px;
+        height: 6vh;
+    }
+    .vl {
+        left: 90px;
+        height: 20vh;
+        top: 150px;
+        left: 180px;
+    }
+    .fb {
+        width: 20px;
+    }
+}
